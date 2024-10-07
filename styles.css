@@ -122,7 +122,7 @@ section {
     /* change here */
     font-size: 3.05rem;
     font-weight: 700;
-    color: transparent;
+    color: black;
     -webkit-text-stroke: .7px var(--main-color);
     background-image: linear-gradient(var(--main-color), var(--main-color));
     background-repeat: no-repeat;
@@ -142,7 +142,7 @@ section {
     left: 0;
     width: 0;
     height: 100%;
-    border-right: 2px solid var(--main-color);
+   
     z-index: -1;
 }
 
