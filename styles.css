@@ -130,7 +130,10 @@ section {
     background-position: -33rem 0;
 }
 
-
+.home.show-animate .home-content .text-animate h3 {
+    animation: homeBgText 6s linear infinite;
+    animation-delay: 2s;
+}
 
 .home-content .text-animate h3::before {
     content: '';
@@ -139,9 +142,14 @@ section {
     left: 0;
     width: 0;
     height: 100%;
+    
     z-index: -1;
 }
 
+.home.show-animate .home-content .text-animate h3::before {
+    animation: homeCursorText 6s linear infinite;
+    animation-delay: 2s;
+}
 
 .home-content p {
     position: relative;
@@ -318,7 +326,7 @@ span {
     border-bottom: .2rem solid var(--second-bg-color);
     border-left: .2rem solid var(--main-color);
     border-right: .2rem solid var(--main-color);
-
+    animation: aboutSpinner 8s linear infinite;
 }
 
 .about-content {
@@ -732,7 +740,10 @@ span {
 .logo .animate,
 .navbar .animate,
 #menu-icon .animate,
-
+.home.show-animate .animate {
+    animation: showRight 1s ease forwards;
+    animation-delay: calc(.3s * var(--i));
+}
 
 .animate.scroll {
     transition: 1s ease;
