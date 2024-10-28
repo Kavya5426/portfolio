@@ -16,8 +16,8 @@
 }
 
 :root {
-    --bg-color: rgba(122, 118, 114);
-    --second-bg-color: #7a7672;
+    --bg-color: #2c5d63;
+    --second-bg-color: #2c5d63;
     --text-color: #ffcc19;
     --main-color: #271900;
 }
@@ -435,7 +435,7 @@ span {
     align-items: flex-start;
     font-size: small;
     height: 100%; /* Only cover 3/4th of the image */
-    background: rgba(166, 213, 255, 0.8); /* Blue transparent background */
+    background: rgba(162, 193, 28, 0.8); /* transparent background */
     transform: translateY(100%); /* Initially off the view */
     transition: transform 0.5s ease;
 }
